@@ -1,0 +1,64 @@
+.user-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+    min-width: 300px;
+    min-height: 350px;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        padding: 10px;
+
+        input[type='checkbox'] {
+            width: 20px;
+            height: 20px;
+            margin: 0;
+        }
+
+        img {
+            width: 30px;
+            height: 30px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+
+        p {
+            font-weight: 900;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+
+        :last-child {
+            margin-top: 0;
+        }
+    }
+}
+
+.selected-card {
+    background-color: lightgray;
+}

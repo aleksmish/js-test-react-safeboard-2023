@@ -1,0 +1,17 @@
+.users-table-container {
+    width: 100%;
+    font-weight: bold;
+
+    thead {
+        background-color: rgb(211, 211, 211);
+    }
+
+    th {
+        text-align: start;
+    }
+
+    td,
+    th {
+        padding: 10px;
+    }
+}

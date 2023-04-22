@@ -1,0 +1,39 @@
+.users-container {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+
+        input[type='text'] {
+            margin: 0;
+        }
+
+        h3 {
+            display: inline-block;
+        }
+
+        input {
+            margin-left: 15px;
+        }
+
+        .views {
+            display: flex;
+            gap: 10px;
+
+            button {
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 20px;
+                height: 20px;
+                border: none;
+                background-color: transparent;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
